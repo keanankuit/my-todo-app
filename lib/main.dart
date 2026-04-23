@@ -34,7 +34,7 @@ class _TodoScreenState extends State<TodoScreen> {
         centerTitle: true,
         backgroundColor: Colors.black,
         title: const Text(
-          'My Todo',
+          'My Todo App',
           style: TextStyle(
             color: Colors.white,
             fontSize: 24,
