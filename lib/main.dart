@@ -35,7 +35,11 @@ class _TodoScreenState extends State<TodoScreen> {
         backgroundColor: Colors.black,
         title: const Text(
           'My Todo App',
-          
+          style: TextStyle(
+            color: Colors.white,
+            fontSize: 24,
+            fontWeight: FontWeight.bold,
+          ),
         ),
       ),
       body: todos.isEmpty
@@ -56,7 +60,7 @@ class _TodoScreenState extends State<TodoScreen> {
                   });
                 },
                 child: Card(
-                  color: Colors.grey[500],
+                  color: Colors.grey[900],
                   child: ListTile(
                     title: Text(
                       todos[index],
